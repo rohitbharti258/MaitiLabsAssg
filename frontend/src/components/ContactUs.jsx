@@ -1,5 +1,5 @@
 import React from "react";
-
+import { BrowserRouter as Router,Link } from "react-router-dom";
 const ContactUs = () => {
   return (
     <>
@@ -41,7 +41,7 @@ const ContactUs = () => {
           <div className="mt-[10px] w-[80%] md:h-[100px] mx-auto font-[Gilroy-XBold] text-[28px] leading-[1.2em] text-center">
             CONTACT US
             <div className="mt-[23px] text-left text-[22px] ml-[30px] font-[Belleza]">
-              <a href="mailto:labsmaiti@gmail.com" className="hover:text-[#1E3A2B]">
+              <Link to="willgetselect" className="hover:text-[#1E3A2B]">
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
@@ -55,7 +55,7 @@ const ContactUs = () => {
                   <path d="M437.332 80H74.668C51.199 80 32 99.198 32 122.667v266.666C32 412.802 51.199 432 74.668 432h362.664C460.801 432 480 412.802 480 389.333V122.667C480 99.198 460.801 80 437.332 80zM432 170.667L256 288 80 170.667V128l176 117.333L432 128v42.667z"></path>
                 </svg>
                 Mail
-              </a>
+              </Link>
             </div>
           </div>
           <div className="mt-[23px] w-[80%] mx-auto font-[Gilroy-XBold] text-[28px] leading-[1.2em] text-center">
@@ -63,9 +63,9 @@ const ContactUs = () => {
             <div className="mt-[24px] md:text-[20px] text-[18px] font-[Belleza] text-left ml-[30px]">
               <ul>
                 <li>
-                  <a
+                  <Link
                     className="block mt-[24px]  hover:text-[#1E3A2B]  "
-                    href="https://www.instagram.com/maitilabs?igsh=MWF0c2J3eXdvNmFhMQ=="
+                    to="https://www.instagram.com/maitilabs?igsh=MWF0c2J3eXdvNmFhMQ=="
                   >
                     <svg
                       stroke="currentColor"
@@ -85,12 +85,12 @@ const ContactUs = () => {
                       ></path>
                     </svg>
                     Instagram
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="block mt-[24px] hover:text-[#1E3A2B]"
-                    href="https://www.linkedin.com/company/maitilabs/"
+                    to="https://www.linkedin.com/company/maitilabs/"
                   >
                     <svg
                       stroke="currentColor"
@@ -105,10 +105,10 @@ const ContactUs = () => {
                       <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
                     </svg>
                     Linkedin
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="block mt-[24px]  hover:text-[#1E3A2B]" href="/">
+                  <Link className="block mt-[24px]  hover:text-[#1E3A2B]" to="/willgetselect">
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
@@ -122,7 +122,7 @@ const ContactUs = () => {
                       <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
                     </svg>
                     Twitter
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

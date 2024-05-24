@@ -7,8 +7,8 @@ import Content from "../components/Content";
 const Home = () => {
   return (
     <div>
-      <TopHeading />
-      <Navbar />
+      {/* <TopHeading />
+      <Navbar /> */}
       <Main />
       <div>
         <Content />

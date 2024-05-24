@@ -40,7 +40,7 @@ const Content = () => {
           <JoinUs/>
           <ContactUs/>
           <VideoPlay/>
-          <Footer/>
+          {/* <Footer/> */}
         </div>
       </div>
     </div>
