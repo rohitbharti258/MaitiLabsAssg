@@ -7,19 +7,13 @@ import JoinUs from "./JoinUs";
 import ContactUs from "./ContactUs";
 import Footer from "./Footer";
 import VideoPlay from "./VideoPlay";
-
+import '../App.css'
 
 const Content = () => {
   return (
-    <div>
-      <div
-        className="cursor-default md:w-auto w-auto md:mx-auto mx-auto md:mt-[101px] sm:mt-[150px]  mt-[300px] bg-white"
-        id="content"
-      >
-        <div
-          className="md:w-auto w-auto md:mx-auto mx-auto"
-          style={{ backgroundColor: "rgb(248, 244, 240)" }}
-        >
+    <>
+      <div className="cursor-default md:w-auto w-auto md:mx-auto mx-auto md:mt-[101px] sm:mt-[150px]  mt-[300px] bg-white" id="content">
+        <div className="md:w-auto w-auto md:mx-auto mx-auto" style={{ backgroundColor: "rgb(248, 244, 240)" }}>
           <AboutUs/>
 
           <Intitative/>
@@ -35,15 +29,16 @@ const Content = () => {
               </span>
             </button>
           </div>
-          <CommunityMembers/>
+          
+        </div>
+        <CommunityMembers/>
           <AwarenessPortal/>
           <JoinUs/>
           <ContactUs/>
           <VideoPlay/>
-          {/* <Footer/> */}
-        </div>
+          <Footer/>
       </div>
-    </div>
+    </>
   );
 };
 

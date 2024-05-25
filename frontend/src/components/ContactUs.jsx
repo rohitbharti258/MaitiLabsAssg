@@ -41,7 +41,7 @@ const ContactUs = () => {
           <div className="mt-[10px] w-[80%] md:h-[100px] mx-auto font-[Gilroy-XBold] text-[28px] leading-[1.2em] text-center">
             CONTACT US
             <div className="mt-[23px] text-left text-[22px] ml-[30px] font-[Belleza]">
-              <Link to="willgetselect" className="hover:text-[#1E3A2B]">
+              <Link to="willgetselect" className="Link hover:text-[#1E3A2B]">
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
@@ -64,7 +64,7 @@ const ContactUs = () => {
               <ul>
                 <li>
                   <Link
-                    className="block mt-[24px]  hover:text-[#1E3A2B]  "
+                    className="Link block mt-[24px]  hover:text-[#1E3A2B]  "
                     to="https://www.instagram.com/maitilabs?igsh=MWF0c2J3eXdvNmFhMQ=="
                   >
                     <svg
@@ -89,7 +89,7 @@ const ContactUs = () => {
                 </li>
                 <li>
                   <Link
-                    className="block mt-[24px] hover:text-[#1E3A2B]"
+                    className="Link block mt-[24px] hover:text-[#1E3A2B]"
                     to="https://www.linkedin.com/company/maitilabs/"
                   >
                     <svg
@@ -108,7 +108,7 @@ const ContactUs = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="block mt-[24px]  hover:text-[#1E3A2B]" to="/willgetselect">
+                  <Link className="Link block mt-[24px]  hover:text-[#1E3A2B]" to="/willgetselect">
                     <svg
                       stroke="currentColor"
                       fill="currentColor"

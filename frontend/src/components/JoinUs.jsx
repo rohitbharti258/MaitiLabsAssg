@@ -27,7 +27,7 @@ const JoinUs = () => {
               name="Career"
             >
               <span>
-                <p className="transition-transform transform scale-105 group-hover:scale-100 font-medium">
+                <p className=" pt-[6px] transition-transform transform scale-105 group-hover:scale-100 font-medium">
                   Careers
                 </p>
               </span>
@@ -37,7 +37,7 @@ const JoinUs = () => {
               name="Signup"
             >
               <span>
-                <p className="transition-transform transform scale-105 group-hover:scale-100 font-medium">
+                <p className="pt-[6px] transition-transform transform scale-105 group-hover:scale-100 font-medium">
                   Join Us
                 </p>
               </span>

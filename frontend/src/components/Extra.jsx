@@ -13,7 +13,7 @@ const Extra = () => {
       >
         <span>
           <p
-            className="transition-transform transform scale-105 group-hover:scale-100 font-[20px]"
+            className="mt-[-10px] transition-transform transform scale-105 group-hover:scale-100 font-[20px]"
             onClick={goBack}
           >
             Back

@@ -4,6 +4,7 @@ import Extra from "./components/Extra";
 import TopHeading from "./components/TopHeading";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import "bootstrap/dist/css/bootstrap.min.css"
 function App() {
   return (
     <>
@@ -12,10 +13,9 @@ function App() {
       <Navbar />
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path='willgetselect' element={<Extra/>}/>
-          
+          <Route path='/willgetselect' element={<Extra/>}/>
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
       </Router>
     </>
   );

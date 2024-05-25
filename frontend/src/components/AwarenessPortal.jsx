@@ -10,7 +10,7 @@ const AwarenessPortal = () => {
       >
         <div className="flex flex-col items-center justify-center my-auto">
           <div className="mt-[115px]">
-            <p className="text-center text-[50px] text-white font-[Gilroy-XBold]">
+            <p className="text-center text-[50px]  text-white font-[Gilroy-XBold]">
               AWARENESS PORTAL
             </p>
           </div>
@@ -25,7 +25,7 @@ const AwarenessPortal = () => {
               name="awareness"
             >
               <span>
-                <p className="transition-transform transform scale-105 group-hover:scale-100 font-medium">
+                <p className="transition-transform transform scale-105 group-hover:scale-100 font-medium pt-[6px]">
                   Awareness Portal
                 </p>
               </span>

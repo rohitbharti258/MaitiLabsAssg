@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from '../assets/logo.png'
 import { BrowserRouter as Router ,Link } from "react-router-dom";
+import '../App.css'
 const Footer = () => {
   return (
     <>
@@ -66,28 +67,28 @@ const Footer = () => {
                 <ul>
                   <li>
                     {" "}
-                    <Link className="block   hover:text-[#1E3A2B]  " to="/willgetselect">
+                    <Link className="Link block   hover:text-[#1E3A2B]  " to="/willgetselect">
                       About
                     </Link>
                   </li>
                   <li>
                     {" "}
-                    <Link className="block  hover:text-[#1E3A2B]" to="/willgetselect">
+                    <Link className="Link block  hover:text-[#1E3A2B]" to="/willgetselect">
                       Awareness Portal
                     </Link>
                   </li>
                   <li>
-                    <Link className="block   hover:text-[#1E3A2B]" to="/willgetselect">
+                    <Link className="Link block   hover:text-[#1E3A2B]" to="/willgetselect">
                       GreenBit
                     </Link>
                   </li>
                   <li>
-                    <Link className="block   hover:text-[#1E3A2B]" to="willgetselect">
+                    <Link className="Link block   hover:text-[#1E3A2B]" to="willgetselect">
                       Team
                     </Link>
                   </li>
                   <li>
-                    <Link className="block  hover:text-[#1E3A2B]" to="/willgetselect">
+                    <Link className="Link block  hover:text-[#1E3A2B]" to="/willgetselect">
                       Career
                     </Link>
                   </li>
@@ -100,14 +101,14 @@ const Footer = () => {
                 <ul>
                   <li>
                     {" "}
-                    <Link className="block  hover:text-[#1E3A2B]  " to="/willgetselect">
+                    <Link className="Link block text-decoration-none hover:text-[#1E3A2B]  " to="/willgetselect">
                       Blogs
                     </Link>
                   </li>
                   <li>
                     {" "}
                     <Link
-                      className="block  hover:text-[#1E3A2B]"
+                      className="Link block  hover:text-[#1E3A2B]"
                       to="https://www.linkedin.com/company/maitilabs/"
                     >
                       Linkedin
@@ -115,7 +116,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      className="block  hover:text-[#1E3A2B]"
+                      className="Link block  hover:text-[#1E3A2B]"
                       to="https://x.com/MaitiLabs?t=t0BTUrSX61h-gBoopo700A&amp;s=08"
                     >
                       Twitter
@@ -131,8 +132,8 @@ const Footer = () => {
             <ul className="flex h-fit w-[100%]  mt-[12px] mb-[20px] justify-around mx-[20px]">
               <li>
                 <Link
-                  className="  hover:text-[#1E3A2B]"
-                  to="mailto:labsmaiti@gmail.com"
+                  className="Link hover:text-[#1E3A2B]"
+                  to=""
                 >
                   <svg
                     stroke="currentColor"
@@ -151,7 +152,7 @@ const Footer = () => {
               <li>
                 {" "}
                 <Link
-                  className=" hover:text-[#1E3A2B]  "
+                  className="Link hover:text-[#1E3A2B]  "
                   to="https://www.instagram.com/maitilabs?igsh=MWF0c2J3eXdvNmFhMQ=="
                 >
                   <svg
@@ -176,7 +177,7 @@ const Footer = () => {
               <li>
                 {" "}
                 <Link
-                  className=" hover:text-[#1E3A2B]"
+                  className="Link hover:text-[#1E3A2B]"
                   to="https://www.linkedin.com/company/maitilabs/"
                 >
                   <svg
@@ -194,7 +195,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link className=" hover:text-[#1E3A2B]" to="/">
+                <Link className="Link  hover:text-[#1E3A2B]" to="/">
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
